@@ -1,0 +1,10 @@
+pandas
+numpy
+seaborn
+matplotlib
+yfinance
+pandas
+pymongo
+feedparser
+beautifulsoup4
+requests
