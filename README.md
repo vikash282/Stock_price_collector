@@ -14,13 +14,13 @@ This project is built using Python, `yfinance`, `pymongo`, and `requests`.
 ---
 
 ## 🛠 Project Structure
-finance/n
-/n│── Data_pipeline.py # Main pipeline runner
-/n│── fetch_prices.py # Fetches stock prices from Yahoo Finance
-/n│── fetch_news.py # Fetches finance news headlines
-/n│── db.py # MongoDB connection helper
-│── config.py # Config (DB URI, API keys, etc.)
-│── requirements.txt # Python dependencies
+finance
+- │── Data_pipeline.py # Main pipeline runner
+- │── fetch_prices.py # Fetches stock prices from Yahoo Finance
+- │── fetch_news.py # Fetches finance news headlines
+- │── db.py # MongoDB connection helper
+- │── config.py # Config (DB URI, API keys, etc.)
+- │── requirements.txt # Python dependencies
 
 ---
 📊 Example Data in MongoDB
