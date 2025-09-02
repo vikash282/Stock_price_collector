@@ -14,11 +14,11 @@ This project is built using Python, `yfinance`, `pymongo`, and `requests`.
 ---
 
 ## 🛠 Project Structure
-finance/
-│── Data_pipeline.py # Main pipeline runner
-│── fetch_prices.py # Fetches stock prices from Yahoo Finance
-│── fetch_news.py # Fetches finance news headlines
-│── db.py # MongoDB connection helper
+finance/n
+/n│── Data_pipeline.py # Main pipeline runner
+/n│── fetch_prices.py # Fetches stock prices from Yahoo Finance
+/n│── fetch_news.py # Fetches finance news headlines
+/n│── db.py # MongoDB connection helper
 │── config.py # Config (DB URI, API keys, etc.)
 │── requirements.txt # Python dependencies
 
@@ -33,13 +33,14 @@ Stock Data Collection (stock_prices):
   "open": 245.67,
   "close": 248.12,
   "volume": 12345678
-}
+  }
 
 
 News Data Collection (news):
 
 {
+
   "headline": "Tesla stock rises after new model announcement",
   "source": "Yahoo Finance",
   "date": "2025-09-02"
-}
+  }
